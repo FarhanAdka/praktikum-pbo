@@ -38,7 +38,7 @@ class TimSepakbola {
   void startTandingBola(TimSepakbola lawan) {
     // DO NOT change both if conditions
     if (Boolean.TRUE.equals(this.isOnMatch)) {
-      System.out.println("Tim " + nama + " sedang dalam pertandingan!");
+      System.out.println("Tim " + this.nama + " sedang dalam pertandingan!");
       return;
     }
 
@@ -48,7 +48,7 @@ class TimSepakbola {
     }
 
     System.out.println(
-      "Pertandingan antara " + nama + " dan " + nama + " dimulai!\n"
+      "Pertandingan antara " + this.nama + " dan " + lawan.nama + " dimulai!\n"
     );
     this.setIsOnMatch(true);
     lawan.setIsOnMatch(true);
