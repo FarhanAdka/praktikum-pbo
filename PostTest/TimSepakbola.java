@@ -98,9 +98,9 @@ class TimSepakbola {
 
     System.out.println(
       "\nPertandingan antara " +
-      nama +
+      this.nama +
       " dan " +
-      nama +
+      lawan.nama +
       " selesai!\n"
     );
     this.setIsOnMatch(false);
