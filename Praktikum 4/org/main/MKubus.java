@@ -3,7 +3,7 @@
 * Penulis : Farhan Adka Reynaldi
 * NIM : 24060121130045
 * Kelas : PBO B2
-* Deskripsi: representasi dari objek segitiga
+* Deskripsi: file main dari kubus
 * Tanggal : 21 Maret 2023
 */
 
